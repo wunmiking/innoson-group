@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="shortcut icon"
+      href="./assets/innoson-logo-img.svg"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>innoson-group</title>
+   
+    <!-- comment on styling font
+
+   <style type="text/tailwindcss">
+      @theme {
+        --font-noto-sans: "Noto Sans", sans-serif;
+      }
+      </style>
+ -->
+
+</head>
+<body class="font-noto-sans">
+    <!-- nav -->
+     <nav class="container mx-auto px-3 py-2 md:px-16 flex justify-between items-center">
+    <img class="w-40 md:w-[221px]" src="./assets/innoson-logo.svg" alt="brand logo">
+    
+    <!-- nav-links -->
+     <ul class="flex gap-8 hidden lg:flex items-center">
+        <li class="hover:text-[#365FA3] cursor-pointer font-[600] text-[20px] text-[0f0f0f]">Home</li>
+        <li class="hover:text-[#365FA3] cursor-pointer font-[600] text-[20px] text-[0f0f0f]">Companies</li>
+        <li class="hover:text-[#365FA3] cursor-pointer font-[600] text-[20px] text-[0f0f0f]">Products</li>
+        <li class="hover:text-[#365FA3] cursor-pointer font-[600] text-[20px] text-[0f0f0f]">About</li>
+        <button class="bg-[#38D69E] rounded-md py-[9px] px-[25px] font-[600] text-[20px] text-[#f7f7f7] ">Contact</button>
+     </ul>
+     <img class="lg:hidden rounded-sm border-2" src="./assets/menu-logo.svg" alt="menu-logo">
+     </nav>
+     <!-- main -->
+      <main>
+        <!-- section-1 -->
+        <section class="bg-[url('./assets/hero-image.jpg')] bg-center bg-cover bg-no-repeat h-[40rem] flex items-center">
+          <div class="text-[#ffffff] container mx-auto px-3 py-2 md:px-20 md:py-4">
+            <h1 class="font-[700] text-[40px] md:text-[60px] lg:w-[50%]">
+                Crafting Africa's Roads Ahead
+            </h1>
+            <p class="font-[400] text-[18px] md:text-[20px] py-4 lg:w-[53%]">
+                Our vehicle assembly line represents the essence of African innovation. From rugged off-road explorers to sleek city cruisers, we assemble vehicles that traverse the varied landscapes of our beautiful continent.
+            </p>
+          </div>
+        </section>
+      </main>
+</body>
+</html>
